@@ -1,0 +1,59 @@
+/*
+Theme Name: Twenty Twenty-Four
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+:root {
+   --design-width: 390px;
+   --inline-padding: 6.153846153846154vw; /* 2400/390 */
+}
+@media (min-width: 40rem) {
+   :root {
+      --design-width: 768px;
+      --inline-padding: 6.510416666666667vw; /* 5000/768 */
+   }
+}
+@media (min-width: 64rem) {
+   :root {
+      --design-width: 1728px;
+      --inline-padding: 4.6296296296296294vw; /* 8000/1728 */
+   }
+}
+
+html {
+   font-size: 100%; /* 16px */
+}
+
+body {
+   font-size: calc( 16 * 100vw / var( --design-width ) );
+}
+
+/* .wp-site-blocks {
+   padding-inline: var(--inline-padding);
+} */
+
+/* generate */
+/* .desktop-8 {
+   --gap: 30px;
+   --gutter: 80px;
+   --columns: 12;
+   --max: 8;
+   --width: calc( ( var(--design-width) - 2 * var(--gutter) - (var(--columns) - 1) * var(--gap) ) / var(--columns));
+   --percent:  calc()
+   max-width: calc( 
+      ( 100vw * var(--max) * var(--width) ) / ( var(--columns) * var(--width) )
+      + ( var( --max ) - 1 ) * var(--gap)
+      );
+   margin-inline: auto;
+} */

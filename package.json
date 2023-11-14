@@ -1,0 +1,17 @@
+{
+  "name": "twentytwentyfour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jgansl <jessegansler@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "src/blocks/*"
+  ],
+  "scripts": {
+    "create:block": "npx @wordpress/create-block faqs --template @wordpress/create-block-tutorial-template"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

@@ -1,0 +1,68 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/call-to-action",
+	"version": "0.1.0",
+	"title": "Call To Action",
+	"category": "theme-blocks",
+	"icon": "flag",
+	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
+	"attributes": {
+		"heading": {
+			"type": "string",
+      "value": "Don't put a comma at the end of this line",
+			"source": "text",
+			"selector": "div",
+      "required": true
+		},
+    "columnCount": {
+      "type": "integer",
+      "default": 2
+    },
+    "columnGap": {
+      "type": "integer",
+      "default": 40
+    },
+    "columnWidth": {
+      "type": "integer",
+      "default": 200
+    },
+    "style": {
+      "type": "object",
+      "default": {
+        "color": {
+          "text": "#3a3a3a",
+          "background": "#fbf9f4"
+        },
+        "spacing": {
+          "padding": {
+            "top": "1em",
+            "right": "20px",
+            "bottom": "20px",
+            "left": "20px"
+          }
+        }
+      }
+    }
+	},
+	"supports": {
+    "align": [ "left", "right", "full" ],
+    "anchor": true,
+    "ariaLabel": true,
+    "color": {},
+		"html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    }
+	},
+  "styles": [
+    { "name": "default", "label": "Default", "isDefault": true },
+    { "name": "other", "label": "Other" }
+  ],
+	"textdomain": "call-to-action",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

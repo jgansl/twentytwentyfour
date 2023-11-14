@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// @font-face {
+// 	font-family: Gilbert;
+// 	src: url(../assets/gilbert-color.otf);
+// 	font-weight: 700;
+// }
+
+.wp-block-create-block-call-to-action {
+	// font-family: Gilbert, sans-serif;
+	font-size: 20px;
+    column-width: 250px;
+    column-gap: 2.5rem;
+    column-rule: 1px solid #b8b8b8;
+}
