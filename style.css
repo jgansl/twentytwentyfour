@@ -39,9 +39,10 @@ body {
    font-size: calc( 16 * 100vw / var( --design-width ) );
 }
 
-/* .wp-site-blocks {
+/* .wp-site-blocks, */
+.site-main {
    padding-inline: var(--inline-padding);
-} */
+}
 
 /* generate */
 /* .desktop-8 {

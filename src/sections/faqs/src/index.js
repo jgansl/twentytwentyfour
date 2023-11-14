@@ -4,6 +4,7 @@
  * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
  */
 import { registerBlockType } from '@wordpress/blocks';
+import { withSelect } from '@wordpress/data';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -41,6 +42,11 @@ registerBlockType( metadata.name, {
 	 * @see ./edit.js
 	 */
 	edit: Edit,
+	// withSelect((select) => {
+	// 	return {
+	// 	  posts: select('core').getEntityRecords('postType', 'your_custom_post_type'),
+	// 	};
+	//  })(Edit),
 
 	/**
 	 * @see ./save.js

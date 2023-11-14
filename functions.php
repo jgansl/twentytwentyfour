@@ -8,7 +8,11 @@
  * @since Twenty Twenty-Four 1.0
  */
 
- ini_set( 'error_log', './debug.txt' );
+// TODO - log levels
+ini_set("error_log", get_stylesheet_directory() . "/debug.txt");
+
+require_once(get_stylesheet_directory() . "/src/lib/theme-cpts.php");
+
 
 /**
  * Register blocks.

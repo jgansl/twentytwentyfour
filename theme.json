@@ -154,8 +154,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "calc(100% - var(--inline-padding) * 2)",
-			"wideSize": "1280px"
+			"contentSize": "800px",
+			"wideSize": "96%"
 		},
 		"spacing": {
 			"spacingScale": {

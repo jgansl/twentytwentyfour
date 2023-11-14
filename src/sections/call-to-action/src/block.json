@@ -4,7 +4,7 @@
 	"name": "create-block/call-to-action",
 	"version": "0.1.0",
 	"title": "Call To Action",
-	"category": "theme-blocks",
+	"category": "text",
 	"icon": "flag",
 	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
 	"attributes": {

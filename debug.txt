@@ -1,0 +1,4 @@
+[14-Nov-2023 13:01:13 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/jessegansler/Local Sites/salient/app/public/wp-content/themes/twentytwentyfour/src/lib/theme-cpts.php on line 259
+[14-Nov-2023 13:01:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/salient/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[14-Nov-2023 13:01:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/salient/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[14-Nov-2023 13:01:15 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/jessegansler/Local Sites/salient/app/public/wp-content/themes/twentytwentyfour/src/lib/theme-cpts.php on line 259
